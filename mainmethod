@@ -1,0 +1,23 @@
+package Week7.Week7workshop;
+
+
+/**
+ * Write a description of class mainmethod here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public class mainmethod {
+    public static void main(String[] args) {
+        BankAccount account1 = new BankAccount("123456", "Messi");
+        BankAccount account2 = new BankAccount("654321", "Ronaldo");
+
+        account1.deposit(500);
+        account1.withdraw(200);
+        account1.displayBalance();
+
+        account2.deposit(1000);
+        account2.withdraw(300);
+        account2.displayBalance();
+    }
+}
